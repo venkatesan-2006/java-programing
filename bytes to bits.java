@@ -1,12 +1,14 @@
 import java.util.Scanner;
-public class q24{
-    public static long convertBytesToBits(long bytes) {
-        return bytes * 8;
-    }
+
+public class BytesToBits {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);  
-        long bytes = sc.nextLong();
-        long bits = convertBytesToBits(bytes);
-        System.out.println(bits);
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter bytes: ");
+        int bytes = sc.nextInt();
+
+        int bits = bytes * 8;
+
+        System.out.println("Bits = " + bits);
     }
-} 
+}
