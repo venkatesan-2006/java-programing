@@ -12,3 +12,6 @@ public class Main
              System.out.println(day + " is weekend.");break;
          default : 
          System.out.println("no day");
+     }
+ }
+}
