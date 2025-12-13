@@ -6,9 +6,8 @@ public class q15{
         int length = sc.nextInt();
         int width = sc.nextInt();
         int area = (length * width);
-        int perimeter = 2*(length + width);
         System.out.println("Area of rectangle is " + area);
-        System.out.println("Perimeter of rectangle is " + perimeter);
 
     }
 }
+
