@@ -5,8 +5,8 @@ public class q16{
         System.out.println("Enter side:");
         int side = sc.nextInt();
         int area = (side * side);
-        int perimeter = 4 * side;
         System.out.println("Area of Square is: " + area);
-        System.out.println("perimeter of Square is: " + perimeter);
+       
     }
 }
+
